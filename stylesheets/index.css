@@ -1,5 +1,9 @@
 .center { text-align: center; }
 
+#timeline {
+  background-color: #48b379;
+}
+
 #timeline a {
   color: #333333;
   text-decoration: underline;
@@ -25,4 +29,8 @@
 
 #technologies img.logo {
   margin: 0em 2em 1em 1em;
+}
+
+#videos {
+  background-color: #48b379;
 }
