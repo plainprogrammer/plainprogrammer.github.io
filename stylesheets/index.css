@@ -1,14 +1,28 @@
-#timeline ol, #timeline ol li {
+.center { text-align: center; }
+
+#timeline a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+#timeline ol, #timeline ol li,
+#timeline ul, #timeline ul li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-#timeline ol li {
+#timeline ol li,
+#timeline ul li {
   padding-bottom: 1.8em;
 }
 
-#timeline ol li p {
+#timeline ol li p,
+#timeline ul li p {
   margin: 0;
   padding: 0.6em 1em 0em 1em;
+}
+
+#technologies img.logo {
+  margin: 0em 2em 1em 1em;
 }
